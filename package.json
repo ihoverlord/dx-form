@@ -1,0 +1,26 @@
+{
+  "name": "dx-form",
+  "version": "0.0.1",
+  "description": "Generate Bootstrap form from CLI",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "dx-form": "./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thebiryaniboy/dx-form.git"
+  },
+  "author": "Himakar Reddy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thebiryaniboy/dx-form/issues"
+  },
+  "homepage": "https://github.com/thebiryaniboy/dx-form#readme",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "ejs": "^2.6.1"
+  }
+}
